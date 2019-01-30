@@ -1,0 +1,44 @@
+@mixin transition($duration, $delay, $timing, $itaration) {
+  animation-duration: $duration;
+  animation-delay: $delay;
+  animation-timing-function: $timing;
+  animation-iteration-count: $itaration;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: rotate;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes rotate {
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+div {
+  width: 40px;
+  height: 40px;
+  margin: 16px;
+  color: #000;
+  @include transition(1.4s, 0s, linear, infinite);
+  display: inline-block;
+  line-height: 1;
+    
+  svg circle {
+      stroke-dasharray: 80px, 200px;
+      stroke-dashoffset: 0px;
+      stroke: currentColor;
+  }
+}
