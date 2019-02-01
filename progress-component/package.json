@@ -1,8 +1,21 @@
 {
   "name": "st-progress-component",
-  "version": "0.0.1",
-  "description": "Stencil Progress Component",
   "author": "ftonato <ademilsonft@outlook.com>",
+  "version": "0.0.2",
+  "description": "Stencil Progress Component",
+  "keywords": [
+    "st-progress",
+    "progress",
+    "progress bar",
+    "progress-bar",
+    "progress-component",
+    "stencil"
+  ],
+  "repository": "ftonato/stenciljs-components",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ftonato/stenciljs-components/issues"
+  },
   "module": "dist/esm/index.js",
   "main": "dist/index.js",
   "unpkg": "dist/ionic.js",
@@ -20,7 +33,11 @@
   "dependencies": {},
   "devDependencies": {
     "@stencil/core": "~0.16.2",
-    "@stencil/sass": "^0.1.1"
-  },
-  "license": "MIT"
+    "@stencil/sass": "^0.1.1",
+    "@types/jest": "23.3.13",
+    "@types/puppeteer": "1.6.4",
+    "jest": "23.6.0",
+    "jest-cli": "23.6.0",
+    "puppeteer": "1.8.0"
+  }
 }
