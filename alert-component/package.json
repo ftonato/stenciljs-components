@@ -1,8 +1,19 @@
 {
   "name": "st-alert-component",
+  "author": "ftonato <ademilsonft@outlook.com>",
   "version": "0.0.1",
   "description": "Stencil Alert Component",
-  "author": "ftonato <ademilsonft@outlook.com>",
+  "keywords": [
+    "st-alert",
+    "alert",
+    "alert-component",
+    "stencil"
+  ],
+  "repository": "ftonato/stenciljs-components",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ftonato/stenciljs-components/issues"
+  },
   "module": "dist/esm/index.js",
   "main": "dist/index.js",
   "unpkg": "dist/ionic.js",
@@ -21,6 +32,5 @@
   "devDependencies": {
     "@stencil/core": "~0.16.2",
     "@stencil/sass": "^0.1.1"
-  },
-  "license": "MIT"
+  }
 }
