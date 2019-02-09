@@ -10,7 +10,7 @@ Progress indicators express an unspecified wait time.
 
 *Script tag*
 1. Put a script tag similar to this `<script src='https://unpkg.com/st-progress-component/dist/st-progress.js'></script>` in the head of your index.html  
-1.1 You can specify a semantic version in your unpkg url: `<script src='https://unpkg.com/st-progress-component@0.0.1/dist/st-progress.js'></script>`
+1.1 You can specify a semantic version in your unpkg url: `<script src='https://unpkg.com/st-progress-component@latest/dist/st-progress.js'></script>`
 
 *Node Module*
 1. Run `npm i st-progress-component --save`
@@ -33,6 +33,10 @@ Default animated progress bar.
 | Property | Attribute | Description                            | Type     | Default     |
 | -------- | --------- | -------------------------------------- | -------- | ----------- |
 | `color`  | `color`   | The visual color style of the progress | `string` | `undefined` |
+
+### Demo
+
+- [Click here to check out the demonstration](https://jsfiddle.net/1sr7dcvp/1/)
 
 ----------------------------------------------
 
